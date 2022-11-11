@@ -6,11 +6,6 @@ import (
 	"strings"
 )
 
-type CodingChallengeInterface interface {
-	GetPairNumbers(string) string
-	GetPairNumbersAlternative(string) string
-}
-
 type CodingChallengeService struct{}
 
 func NewCodingChallengeService() *CodingChallengeService {
