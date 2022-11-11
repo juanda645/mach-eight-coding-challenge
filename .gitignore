@@ -1,0 +1,7 @@
+#My
+vendor
+.idea
+glide.lock%
+local-env.list
+local-env.sh
+.vscode
